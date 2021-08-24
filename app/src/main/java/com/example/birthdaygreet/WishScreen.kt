@@ -15,6 +15,6 @@ class WishScreen : AppCompatActivity() {
 
         val name = intent.getStringExtra(NAME_EXTRA)
 
-        findViewById<TextView>(R.id.wish).text = "Happy Birthday $name"
+        findViewById<TextView>(R.id.wish).text = "Happy Birthday\n$name"
     }
 }
